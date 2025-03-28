@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: idroid;
+    src: url(idroid.otf);
+
+}
+
+body {
+    background-color: rgb(230, 231, 162);
+}
+
+header {
+    background: rgb(4,61,28);
+    background: linear-gradient(to top, rgba(4,61,28,1) 0%, #20844c 91%);
+   padding: 5px;
+}
+
+
+header>h1 {
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    font-weight: normal;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+   
+}
+
+header nav a:hover {
+
+   background-color: #20844c;
+   color: #093d1f75;
+}
+
+main {
+    background-color: white;
+    width: 82%;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+
+main h1 {
+    font-family: idroid;
+    color: #083f1f;
+    padding: 7px;
+    margin-left: 1%;
+}
+
+ h2 {
+    font-family: idroid;
+    color: #20844c;
+    background-image: linear-gradient(to right, #02d95f91, #02d95f00);
+    margin-left: 1%;
+}
+
+#dan-droid {
+    display: block;
+    margin: 0 auto;
+}
+
+#iriana {
+    display: block;
+    margin: 0 auto;
+}
+
+#bugdroid {
+  
+   display: block;
+   margin: 0 auto;
+}
+
+#video {
+    background-color: #083f1f;
+}
+
+iframe {
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 75%;
+    height: 500px;
+}
+
+#lista {
+    width: 80%;
+    background-color: #02d95f91;
+    margin: auto;
+   border-radius: 20px;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+
+#lista ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: inside "\2714\00A0\00A0";
+   
+}
+
+h3 {
+    background-color: #083f1f;
+   text-align: left;
+  
+   color: white;
+}
+
+footer > h3 {
+    color: white;
+    text-align: center;
+}
+
+.links-conteudo {
+    text-decoration: none;
+   background-color: #42bf78de;
+
+}
+
+.links-conteudo::after {
+    content: '🔗';
+}
+
+.links-conteudo:hover {
+    background-color: #42bf78a9;
+}
+
+p {
+    padding: 20px;
+    text-align: left;
+   font-family: sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#h3lista {
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+   margin-left: 4%;
+}
+
+
